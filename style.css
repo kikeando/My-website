@@ -1,0 +1,55 @@
+
+.header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.intro{
+    display: flex;
+    font-size: 28px;
+    font-weight: bold;
+    justify-content: center;
+}
+.circular-image{
+    width: 300px; /* Set the width and height of the container */
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%; /* Create a circular shape */
+}
+.circular-image img {
+    width: 100%; /* Make the image fill the container */
+    height: auto;
+    display: block;
+  }
+a{
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.parrafo{
+    display: flex;
+}
+
+img{
+    justify-content: center;
+    align-items: flex-start;
+}
+ul li{
+    display: flex;
+    list-style: none;
+    gap: 8px
+}
+
+/*.header,*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+  
+.footer {
+    background: #eee;
+}
